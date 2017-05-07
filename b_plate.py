@@ -1,5 +1,5 @@
 def BoilerPlate():
-    title = [' ','BIBLE', ' ', 'by:',' ', 'Tommy H. Yeargin, Jr.',' ']
+    title = [' ', 'BIBLE', ' ', 'by:', ' ', 'Tommy H. Yeargin, Jr.', ' ']
     length = len(max(title, key=len)) + 6
     print(length * '*')
     for i in range(0, len(title),1):
