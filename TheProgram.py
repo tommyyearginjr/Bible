@@ -1,5 +1,9 @@
 # Created 5/8/17 by Tommy H. Yeargin, Jr. Namaste.
 from BibleBookIndex import books
+from b_plate import BoilerPlate
+
+BoilerPlate()
+
 ExternalFile = input('What book of the Bible do you want to read? ')
 ChapterNumber = input('What chapter? ')
 Target = './bible/{}'.format(books.index(str(ExternalFile)))+'/ch'+ChapterNumber+'.txt'
