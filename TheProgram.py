@@ -1,4 +1,5 @@
-# Created 5/8/17 by Tommy H. Yeargin, Jr. Namaste.
+# Created 5/8/17 by Tommy H. Yeargin, Jr. 
+# COURAGE.
 from BibleBookIndex import books
 from b_plate import BoilerPlate
 
